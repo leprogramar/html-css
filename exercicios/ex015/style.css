@@ -1,0 +1,19 @@
+@charset "UTF8";
+
+body {
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1 {
+    color: chocolate;
+    background-color: aqua;
+    text-decoration: underline;
+}
+h2 {
+    color: purple;
+    background-color: darkgoldenrod;
+}
+p {
+    text-align: justify;
+}
