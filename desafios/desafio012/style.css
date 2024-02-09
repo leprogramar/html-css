@@ -15,7 +15,8 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-body{
+html, body{
+    min-height: 100vh;
     height: 3500px;
 }
 header{
