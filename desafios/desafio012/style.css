@@ -16,7 +16,7 @@
 }
 
 body{
-    height: 3000px;
+    height: 3500px;
 }
 header{
     height: 300px;
@@ -25,7 +25,6 @@ header{
     align-items: center;
     background-color: black;
     flex-direction: column;
-
 }
 header >h1{
     color: white;
@@ -38,29 +37,62 @@ header a{
     text-decoration: none;
     color: white;
     font-family: var(--fonte1);
+    font-size: 1.3em;
 }
 .trecho{
-    height: 700px;
-    font-size: 2.2em;
+    height: 900px;
+    font-size: 2.8em;
     font-family: var(--fonte3);
 }
-.trecho#duo{
-    height: 1000px;
+#duo{
+    height: 1300px;
     
 }
 .trecho#parte1{
     background-color: white;
 }
 .trecho#parte2{
+    padding: 5px;
     background-image: url(imagens/background001.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     color: white;
 }
-#bloco{
-    
+#bloco0{
+    padding: 30px;
+}
+#bloco1{
+    padding: 18px;
     width: 500px;
-    height: 500px;
+    height: 650px;
     background-color: rgba(0, 0, 0, 0.466);
+    margin: 30px;
+}
+
+#bloco2{
+    padding: 30px;
+}
+.trecho#parte3{
+    padding: 5px;
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+#bloco3{
+    width: 591px;
+    height: 575px;
+    background-color: rgba(0, 0, 0, 0.466);
+    margin: 50px;
+    padding: 10px;
+}
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
